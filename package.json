@@ -1,0 +1,24 @@
+{
+  "name": "bullseye_tjandra_proxy",
+  "version": "1.0.0",
+  "description": "Proxy Service for Bullseye Application",
+  "scripts": {
+    "start": "nodemon ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr40-fec1/bullseye_tjandra_proxy.git"
+  },
+  "author": "Andrew Tjandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr40-fec1/bullseye_tjandra_proxy/issues"
+  },
+  "homepage": "https://github.com/hrr40-fec1/bullseye_tjandra_proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
