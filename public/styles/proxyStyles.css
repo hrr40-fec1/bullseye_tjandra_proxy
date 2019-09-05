@@ -1,0 +1,13 @@
+#images{
+  display: inline-block;
+  width: 66%;
+}
+
+#checkout {
+  display: inline-block;
+  width: 33%;
+}
+
+#service {
+  width: 66%;
+}
