@@ -1,11 +1,13 @@
-#images{
+#imagesCarousel{
   display: inline-block;
   width: 66%;
+  height: auto;
 }
 
 #checkout {
   display: inline-block;
   width: 33%;
+  vertical-align: top;
 }
 
 #service {
