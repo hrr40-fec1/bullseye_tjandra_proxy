@@ -31,6 +31,14 @@ module.exports = (grunt) => {
           },
           {
             expand: true,
+            cwd: '../item-images/public',
+            src: 'app.bundle.js',
+            rename: function() {
+              return 'images.bundle.js'
+            }
+          },
+          {
+            expand: true,
             cwd: '../item-details/client/dist',
             src: 'bundle.js',
             rename: function() {
@@ -51,14 +59,6 @@ module.exports = (grunt) => {
             src: 'bundle.js',
             rename: function() {
               return 'reviews.bundle.js'
-            }
-          },
-          {
-            expand: true,
-            cwd: '../item-reviews/client/dist',
-            src: 'reviews.css',
-            rename: function() {
-              return 'reviews.css'
             }
           }
         ]

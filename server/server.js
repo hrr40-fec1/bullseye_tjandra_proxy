@@ -5,6 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
+app.use(proxy('/api/images', {target: 'http://localhost:3003/'}));
 app.use(proxy('/api/checkout', {target: 'http://localhost:3002/'}));
 app.use(proxy('/api/product', {target: 'http://localhost:3004/'}));
 app.use(proxy('/api/', {target: 'http://localhost:3001/'}));
