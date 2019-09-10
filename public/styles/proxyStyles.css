@@ -1,15 +1,40 @@
 #imagesCarousel{
   display: inline-block;
-  width: 66%;
-  height: auto;
+  position: relative;
+  width: 70%;
 }
 
 #checkout {
   display: inline-block;
-  width: 33%;
+  position: relative;
+  width: 20%;
   vertical-align: top;
 }
 
-#service {
-  width: 66%;
+#service #Reviews{
+  margin-top: 50px;
+}
+
+#titleProductname{
+  font-size: 23px;
+}
+
+#homepageHeader{
+  height: 75px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.headerLinks {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.centerSection {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
 }
